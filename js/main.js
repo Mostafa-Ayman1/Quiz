@@ -1,6 +1,6 @@
-if (!sessionStorage.getItem("user")) {
-  window.location.href = "/login.html";
-}
+// if (!sessionStorage.getItem("user")) {
+//   window.location.href = "/login.html";
+// }
 const category = document.querySelector(".quiz-info");
 const questionCount = document.querySelector(".count");
 const quizLabel = document.querySelector(".quiz-label");
