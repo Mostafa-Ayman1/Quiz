@@ -1,0 +1,103 @@
+
+[
+    {
+      "question": "Which season is pneumonia more likely to occur in?",
+      "options": ["Summer", "Winter", "Autumn", "Spring"],
+      "answer": "Winter"
+    },
+    {
+      "question": "What is the clinical manifestation often associated with pneumonia?",
+      "options": ["Headache", "Nausea", "Chills", "Muscle pain"],
+      "answer": "Chills"
+    },
+    {
+      "question": "Which type of pneumonia involves inflammation confined within the alveolar walls and interlobular tissues?",
+      "options": ["Lobar pneumonia", "Bronchopneumonia", "Interstitial pneumonia", "Viral pneumonia"],
+      "answer": "Interstitial pneumonia"
+    },
+    {
+      "question": "Which of the following is NOT a classification of pneumonia?",
+      "options": ["Based on clinical forms", "Based on morphology", "Based on pathophysiology", "Based on etiologic agent"],
+      "answer": "Based on etiologic agent"
+    },
+    {
+      "question": "What is the primary cause of pneumonia according to the most useful classification?",
+      "options": ["Fungi", "Bacteria", "Aspiration of foreign body", "Viruses"],
+      "answer": "Viruses"
+    },
+    {
+      "question": "What is the pathophysiological mechanism of pneumonia?",
+      "options": ["Vasodilation", "Inflammation and swelling of mucous membranes", "Decreased mucus production", "Decreased phagocytosis"],
+      "answer": "Inflammation and swelling of mucous membranes"
+    },
+    {
+      "question": "Which clinical manifestation of pneumonia involves the first stage of coughing being dry?",
+      "options": ["Chills", "Fever", "Malaise", "Cough"],
+      "answer": "Cough"
+    },
+    {
+      "question": "What is a common respiratory distress sign seen in severe cases of pneumonia?",
+      "options": ["Bradypnea", "Bradycardia", "Flaring of ala nasi", "Decreased respiratory rate"],
+      "answer": "Flaring of ala nasi"
+    },
+    {
+      "question": "Which therapeutic management option is specifically targeted at alleviating fever in pneumonia patients?",
+      "options": ["Antibiotics", "Fluids", "Antipyretics", "Cough suppressants"],
+      "answer": "Antipyretics"
+    },
+    {
+      "question": "What is the main action of antibiotics in treating pneumonia?",
+      "options": ["Increasing mucus production", "Reducing inflammation", "Killing the causative agent", "Enhancing gas exchange"],
+      "answer": "Killing the causative agent"
+    },
+    {
+      "question": "In which type of pneumonia do breath sounds may be wheezy, diminished, or absent in consolidated areas?",
+      "options": ["Lobar pneumonia", "Bronchopneumonia", "Interstitial pneumonia", "Viral pneumonia"],
+      "answer": "Lobar pneumonia"
+    },
+    {
+      "question": "Which age group is more likely to experience febrile convulsions associated with pneumonia?",
+      "options": ["Adolescents", "Infants", "Young adults", "Elderly"],
+      "answer": "Infants"
+    },
+    {
+      "question": "What type of pneumonia involves inflammation of a large segment of one or more pulmonary lobes?",
+      "options": ["Lobar pneumonia", "Bronchopneumonia", "Interstitial pneumonia", "Viral pneumonia"],
+      "answer": "Lobar pneumonia"
+    },
+    {
+      "question": "What is the common initial symptom experienced by patients with pneumonia?",
+      "options": ["Nausea", "Vomiting", "Chills", "Fatigue"],
+      "answer": "Chills"
+    },
+    {
+      "question": "Which of the following is a potential complication of pneumonia in severe cases?",
+      "options": ["Hypotension", "Hyperglycemia", "Delirium", "Hypothermia"],
+      "answer": "Delirium"
+    },
+    {
+      "question": "What is the primary goal of administering fluids in pneumonia management?",
+      "options": ["Decreasing mucus production", "Reducing inflammation", "Maintaining hydration", "Increasing cough effectiveness"],
+      "answer": "Maintaining hydration"
+    },
+    {
+      "question": "Which type of pneumonia begins in the terminal bronchioles?",
+      "options": ["Lobar pneumonia", "Bronchopneumonia", "Interstitial pneumonia", "Viral pneumonia"],
+      "answer": "Bronchopneumonia"
+    },
+    {
+      "question": "What is the term used to describe the consolidation of mucus in the small airways in pneumonia?",
+      "options": ["Fibrosis", "Atelectasis", "Effusion", "Exudate"],
+      "answer": "Atelectasis"
+    },
+    {
+      "question": "Which of the following is NOT a symptom of pneumonia?",
+      "options": ["Rapid breathing (tachypnea)", "Cyanosis", "Bradycardia", "Intercostal retractions"],
+      "answer": "Bradycardia"
+    },
+    {
+      "question": "What is the primary purpose of administering cough suppressants in pneumonia management?",
+      "options": ["Facilitating mucus clearance", "Reducing fever", "Decreasing inflammation", "Alleviating cough discomfort"],
+      "answer": "Alleviating cough discomfort"
+    }
+]

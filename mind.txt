@@ -1,0 +1,23 @@
+Login:
+01 - Enter Name
+02 - Add Name to Session Storage
+
+
+01 - Create JSON Object For  Questions (✔️)
+02 - Start Creating HTML Markup (✔️)
+03 - Add Dummy Data (✔️)
+04 - Create The Styling (✔️)
+05 - Fetch Number Of Questions From JSOObject (✔️)
+06 - Show Questions Count + Questions .Category (✔️)
+07 - ShowThe Number Of Bullets Dependon  Questions .Count (✔️)
+08 - Set The Number For The  Right andWrong  Answers  (✔️)
+10 - Fetch The Questions From The JSON  Object  (✔️)
+11 - Show First .Question  (✔️)
+12 - Check Answer and Hide Question Then Show.Next .One  (✔️)
+14 - Add Class On Bullet After Answering The Question   (✔️)
+15 - If Questions Finished Show The Result  (✔️)
+
+Ideas
+- Many JSON Objects and Choose Language
+- Add Many Questins and Choose Only  10 Randomly
+- Randomize Answers

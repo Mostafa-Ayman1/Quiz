@@ -1,0 +1,166 @@
+/************************** Gobal Rules ******************************/
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+
+:root {
+  --main-color: #0075ff;
+  --main-color-hover: #0051ad;
+  --main-radius: 6px;
+  --secondry-color: #f8f8f8;
+  --bullets-color: #ddd;
+  --main-transition: 0.3s;
+  --answer-color: #6b6969;
+  --border-color: #ddd;
+}
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000 */
+
+* {
+  font-family: "Cairo", sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  margin: auto;
+}
+@media (min-width: 576px) {
+  .container {
+    width: 575px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+    width: 767px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up)  */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/************************** Gobal Rules ******************************/
+
+/***************** Login Page *****************************/
+.login-body {
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+.login {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.login form input {
+  padding: 15px;
+  font-size: 18px;
+}
+.login form button {
+  background-color: var(--main-color);
+  color: white;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: var(--main-radius);
+}
+.login form button:hover {
+  background-color: var(--main-color-hover);
+  transition: var(--main-transition);
+}
+/*********************End login page*****************************************/
+.quiz-app {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  background-color: var(--secondry-color);
+  border-radius: var(--main-radius);
+}
+.quiz-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.quiz-label,
+.answers-area,
+.quiz-info {
+  padding: 20px;
+  background-color: white;
+  border-radius: var(--main-radius);
+}
+.answers-area {
+  padding-top: 0;
+  margin-bottom: 20px;
+}
+.answer {
+  background-color: var(--secondry-color);
+  padding: 15px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--main-radius);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  color: var(--answer-color);
+}
+.answer label {
+  cursor: pointer;
+}
+.submit-button {
+  width: 100%;
+  padding: 15px;
+  background-color: var(--main-color);
+  color: white;
+  font-weight: bold;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  transition: var(--main-transition);
+  border-radius: var(--main-radius);
+}
+.submit-button:hover {
+  background-color: var(--main-color-hover);
+}
+.bullets {
+  margin-top: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--main-radius);
+  background-color: white;
+  display: flex;
+  padding: 20px;
+  gap: 4px;
+}
+
+.bullets span {
+  width: 20px;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 50%;
+}
+.bullets span.on {
+  background-color: var(--main-color);
+}
+.results.active {
+  font-size: 18px;
+  font-weight: bold;
+  color: cadetblue;
+  padding: 15px;
+  border: 1px solid cadetblue;
+  border-radius: var(--main-radius);
+}
