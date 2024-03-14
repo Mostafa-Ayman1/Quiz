@@ -1,5 +1,5 @@
 if (!sessionStorage.getItem("user")) {
-  window.location.href = "Quiz/login.html";
+  window.location.href = "/Quiz/login.html";
 }
 const category = document.querySelector(".quiz-info");
 const questionCount = document.querySelector(".count");
