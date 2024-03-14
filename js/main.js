@@ -115,7 +115,7 @@ function showResults() {
     answersArea.remove();
     bullets.remove();
     submitButton.remove();
-    request.classList.add("active");
+    results.classList.add("active");
     results.innerHTML = `Your Score is ${rightAnswers}`;
   }
 }
