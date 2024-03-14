@@ -8,6 +8,6 @@ submit.addEventListener("click", (e) => {
 
   if (inputName) {
     sessionStorage.setItem("user", inputName);
-    window.location.href = "/Quiz/index.html";
+    window.location.href = "/index.html";
   }
 });

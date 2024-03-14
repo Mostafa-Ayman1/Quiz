@@ -1,4 +1,12 @@
-if (!sessionStorage.getItem("user")) {
+/**
+ * - Login identify
+ * - Set user name
+ */
+
+if (sessionStorage.getItem("user")) {
+  const user = document.getElementById("user-name");
+  user.innerHTML = sessionStorage.getItem("user");
+} else {
   window.location.href = "/Quiz/login.html";
 }
 const category = document.querySelector(".quiz-info");
